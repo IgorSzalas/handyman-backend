@@ -20,6 +20,7 @@ data class User(
     var city: String?,
     @Column(name = "UserDescription")
     var description: String?,
+    // @Value(UserRole.NORMAL)
     @Column(name = "UserRole")
     var role: UserRole
 )
